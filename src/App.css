@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    transition: 0.2s;
+}
+a:hover{
+    color: #39DB4A;
+    transform: translateY(-8%);
+}
+
+.offers{
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+select{
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    font-size: 20px;
+}
+select:hover{
+    color: white;
+    background-color: #39DB4A;
+    transform: translateY(-8%);
+}
+
+.inp{
+    height: 30px;
+    outline: none;
+    transition: 0.2s;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.buton{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.qidir{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn{
+    width: 130px;
+    height: 50px;
+    background-color: #39DB4A;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    font-size: 17px;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: #238d2e;
+    transform: translateY(-8%);
+}
+
+.text{
+    width: 330px;
+}
+
+.bttn{
+    width: 100px;
+    height: 40px;
+    background-color: #39DB4A;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    box-shadow: -2px 22px 38px 0px #8EFF9A80;
+    font-size: 15px;
+    transition: 0.2s;
+}
+.bttn:hover{
+    background-color: #238d2e;
+    transform: translateY(-8%);
+}
+
+.vd{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-left: 15px;
+    transition: 0.2s;
+}
+.vd:hover{
+    background-color: #39DB4A;
+    transform: translateY(-8%);
+    color: white;
+    box-shadow: -2px 22px 38px 0px #8EFF9A80;
+}
+
+p{
+    margin-top: 20px;
+    color: #4A4A4A;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.watch{
+    width: 50px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 10px 27px 44px 0px #0000001A;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
